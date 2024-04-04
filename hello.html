@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p id="content">Hello World!</p>
+    <button id="btn" onclick=changeContent()>클릭 시 이름 바뀜</button>
 </body>
+<script>
+    function changeContent(){
+        let content=document.getElementById("content")
+        content.innerText="Hello 한준서!"
+    }
+</script>
 </html>
